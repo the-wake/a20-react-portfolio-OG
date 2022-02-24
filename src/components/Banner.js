@@ -1,11 +1,14 @@
 import React from 'react';
 
-export default function Navbar() {
+function Banner() {
   return (
-    <header className="jumbotron">
+    <div className="jumbotron">
       <div className="container for-about">
-        <h1>About</h1>
+        <h2>Bad at marketing myself.</h2>
+        <h2>Good at making websites.</h2>
       </div>
-    </header>
+    </div>
   )
 }
+
+export default Banner;
