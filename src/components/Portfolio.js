@@ -16,6 +16,7 @@ function Portfolio() {
 
   return (
     <div>
+      <h2 className="content-header">Portfolio</h2>
       {projects.map((project, index) => {
         return <Project project={project} key={index}/>
       })}

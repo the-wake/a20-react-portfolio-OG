@@ -5,16 +5,16 @@ function Navbar({ currentPage, handlePageChange }) {
     <ul className="nav nav-tabs fixed-top">
       <li className="nav-item">
         <a
-          href="#home"
+          href="# "
           onClick={() => handlePageChange('Home')}
           className={currentPage === 'Home' ? 'nav-link active' : 'nav-link'}
         >Home</a>
       </li>
       <li className="nav-item">
         <a
-          href="#portfolio"
+          href="# "
           onClick={() => handlePageChange('Portfolio')}
-          className={currentPage === 'Blog' ? 'nav-link active' : 'nav-link'}
+          className={currentPage === 'Portfolio' ? 'nav-link active' : 'nav-link'}
         >Portfolio</a>
       </li>
       {/* <li className="nav-item">

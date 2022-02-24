@@ -21,6 +21,7 @@ function ContentContainer() {
     <div>
       <Navbar currentPage={currentPage} handlePageChange={handlePageChange} />
       <Banner />
+      <div id=" " />
       {renderPage()}
     </div>
   )
